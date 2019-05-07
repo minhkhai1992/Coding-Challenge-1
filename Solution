@@ -1,0 +1,14 @@
+var heightMark, heightJohn, massMark, massJohn, johnBMI, markBMI;
+
+heightJohn = prompt('what is John height? ');
+massJohn = prompt('what is John weight? ');
+
+heightMark = prompt('what is mark height? ');
+massMark = prompt('what is Mark weight? ');
+
+johnBMI = massJohn / (heightJohn * heightJohn);
+markBMI = massMark / (heightMark * heightMark);
+
+var con = johnBMI <= markBMI
+
+console.log('Is Mark BMI higher than John BMI?' + con);
